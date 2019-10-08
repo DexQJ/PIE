@@ -34,10 +34,10 @@ class LAST_MDO(Group):
         indeps.add_output('TW1', 1.185073797)                               # initial Thrust to weight ratio
         indeps.add_output('C1',0.2289697)                                   # surface ratio between first stage and nozzle exit
                
-        indeps.add_output('dt_v', val=25)                # duration of vertical phase (s) 
-        indeps.add_output('dt_po', val=20.)               # duration of pich over (s) 
-        indeps.add_output('dthe_po', val=1)              # pitch over angle variation (°) 
-        indeps.add_output('dt_d', val=20.)                # duration of angle variation towards gravity turn (s) 
+        indeps.add_output('dt_v', val=30, ref=10)                # duration of vertical phase (s) 
+        indeps.add_output('dt_po', val=250.,ref=100)               # duration of pich over (s) 
+        indeps.add_output('dthe_po', val=0)              # pitch over angle variation (°) 
+        indeps.add_output('dt_d', val=0.)                # duration of angle variation towards gravity turn (s) 
  
        
         # Disciplines of the problem 
@@ -70,10 +70,10 @@ class LAST_MDO(Group):
         self.add_design_var('f1', lower=0.08, upper=0.16)
         self.add_design_var('C1', lower=0.2, upper=0.3)
         self.add_design_var('OF1', lower=5.92, upper=6.05)
-        self.add_design_var('dt_v', lower=24, upper=26)
-        self.add_design_var('dt_po', lower=19, upper=21)        
-        self.add_design_var('dthe_po', lower=0.5, upper=1.5)        
-        self.add_design_var('dt_d', lower=19, upper=21)        
+        self.add_design_var('dt_v', lower=1, upper=4)
+        self.add_design_var('dt_po', lower=2.4, upper=3.1)        
+        self.add_design_var('dthe_po', lower=0., upper=0)        
+        self.add_design_var('dt_d', lower=0, upper=0)        
 
         
         self.add_objective('obj')
