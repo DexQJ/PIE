@@ -22,7 +22,7 @@ def EOM(t,x, omega, ft, w, A, Cd, integrate, dt_po, dt_v, dthe_po,dt_d):        
     m = x[4]                                # Mass of system
     
     #command law
-    theta = command_law_5(dt_po,dthe_po,dt_v,dt_d,fi,t)
+    theta = command_law_2(dt_po,dthe_po,dt_v,dt_d,fi,t)
 
 
     # Compute current atmosphere
