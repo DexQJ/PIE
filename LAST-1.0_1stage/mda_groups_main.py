@@ -36,10 +36,10 @@ class LAST_MDA(Group):
 
         indeps.add_output('C1',0.2289697)                       # surface ratio between first stage and nozzle exit
         
-        indeps.add_output('dt_v', val=25.)                # duration of vertical phase (s) 
-        indeps.add_output('dt_po', val=20.)               # duration of pich over (s) 
-        indeps.add_output('dthe_po', val=1)              # pitch over angle variation (°) 
-        indeps.add_output('dt_d', val=20.)                # duration of angle variation towards gravity turn (s) 
+        indeps.add_output('dt_v', val=30.)                # duration of vertical phase (s) 
+        indeps.add_output('dt_po', val=250.)               # duration of pich over (s) 
+        indeps.add_output('dthe_po', val=0)              # pitch over angle variation (°) 
+        indeps.add_output('dt_d', val=0.)                # duration of angle variation towards gravity turn (s) 
 
 
         # Disciplines of the problem 
