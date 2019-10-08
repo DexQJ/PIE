@@ -152,7 +152,7 @@ class trajectory(ExplicitComponent):
         theta = np.zeros([len(t_sol)])
         
         for i in range(len(t_sol)):
-            theta[i] = command_law_5(dt_po,dthe_po,dt_v,dt_d,fi_sol[i],t_sol[i])
+            theta[i] = command_law_2(dt_po,dthe_po,dt_v,dt_d,fi_sol[i],t_sol[i])
             
         # constraits for MDO
         alf = theta - fi_sol
