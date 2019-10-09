@@ -10,13 +10,18 @@ Analyse et optimisation multi-disciplinaire d’un premier étage réutilisable 
 
 -DOCUMENTS: rapport de stage sur LAST, fiche projet, poster projet.
 
-# CONTRIBUTEURS
-Alfonso GUILARTE HERRERO
-Louis KENNEDY
-Jean-Christophe COMPAZIEU
-Dexter QUINCY-JONES
-Mael PAGEAUD
+# AUTEURS
+Alfonso GUILARTE HERRERO 
+
+Louis KENNEDY 
+
+Jean-Christophe COMPAZIEU 
+
+Dexter QUINCY-JONES 
+
+Mael PAGEAUD 
+
 Mathieu PARNOT 
 
-# CLIENT
-Annafederica URBANO 
+Annafederica URBANO
+
