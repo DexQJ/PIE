@@ -10,6 +10,8 @@ Analyse et optimisation multi-disciplinaire d’un premier étage réutilisable 
 
 -DOCUMENTS: rapport de stage sur LAST, fiche projet, poster projet.
 
+-BIBLIOGRAPHY: reférences utiles pour le développement du projet
+
 # AUTEURS
 Alfonso GUILARTE HERRERO 
 
